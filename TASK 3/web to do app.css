@@ -1,0 +1,87 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:'poppins',sans-serif;
+    background-color: #d5f4d5;
+    background-size: 5px;
+
+}
+.container{
+    max-width:400px;
+    background-color: #fff;
+    padding: 20px;
+    margin:0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    
+}
+.todo-app{
+    text-align:center;
+}
+h2{
+    color:#002765;
+
+}
+.row{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:20px;
+}
+#input-box{
+    border:1px solid #ccc;
+    outline:none;
+    padding:10px;
+    width:70%;
+    border-radius:5px;
+}
+button{
+    border:none;
+    outline:none;
+    padding:16px  50px;
+    background-color:#ff5945;
+    color:#fff;
+    cursor:pointer;
+    border-radius:5px;
+    margin-left:10px;
+}
+button:hover{
+    background-color: #555;
+}
+ul {
+    list-style-type:none;
+    padding:0;
+}
+li{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+   padding:10px;
+   background-color: #f9f9f9;
+   border-bottom:1px solid #ddd;
+
+
+}
+li.checked{
+    color:#555;
+    text-decoration:line-through;
+}
+li button.delete{
+    color:#555;
+    margin-left: 5px;
+    cursor:pointer;
+    padding:5px 10px;
+    border-radius:5px;
+    border:none;
+    background-color:#f44336;
+    cursor:pointer;
+}
+li button.delete:hover{
+    background-color: #d32f2f;
+}
+
+
+
+
+
+
